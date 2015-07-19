@@ -1,0 +1,214 @@
+*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		 overflow-y:hidden;
+		overflow-x:hidden;
+		background-image: -webkit-gradient( linear, left top, left bottom, color-stop(0, #121111), color-stop(0.51, #E4E4E4) );
+	}
+	
+	
+	
+	
+@media screen and (max-width: 1600px) {
+	
+	
+	.centro {
+		border: 0px solid #000;
+		width: 1280px;
+		position: relative;
+		height: auto;
+		margin: 0 auto;
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+	.pointer {
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	  border: 35px solid;
+	  border-color: white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(89, 89, 89, 0);
+	  z-index: 999;
+	  margin-top: -4px;
+	  left: 47.69%;
+	}
+	.container {
+		position: relative;
+		width: 100%;
+		  border: 0px solid #000;
+		  overflow-y: hidden;
+			overflow-x: hidden;
+		
+	}
+	.roulette{
+		  width: 40%;
+		  position: relative;
+		  border: 0px solid #000;
+		  margin: 0 AUTO;
+		  overflow-y: hidden;
+		  overflow-x: hidden;
+	}
+	
+	.roulette img {
+		position: relative;
+		width: 100%;
+	}
+	.botao{
+		  position: relative;
+		  width: 19%;
+		  MARGIN: 0 AUTO;
+		  MARGIN-TOP: 15PX;
+	}
+	.botao img{
+		position: relative;
+		width: 100%;
+		
+	}
+	.fundointerna{
+		width: 29%;
+	  border: 0px solid;
+	  margin: 0 auto;
+	  left: 35%;
+	  top: 181px;
+	   z-index: 999;
+   POSITION: ABSOLUTE;
+
+	  
+	}
+	
+	.fundointerna img {
+	  width: 41%;
+	  margin-left: 118px;
+	  margin-top: 1px;
+	}
+}	
+
+@media screen and (max-width: 800px){
+	.roulette {
+	  width: 99%;
+	  position: relative;
+	  border: 0px solid #000;
+	  margin: 0 AUTO;
+	  overflow-y: hidden;
+	  overflow-x: hidden;
+	}
+	.centro {
+		border: 0px solid #000;
+		width: 800px;
+		position: relative;
+		height: auto;
+		margin: 0 auto;
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
+	.fundointerna {
+	  width: 70%;
+	  border: 0px solid;
+	  margin: 0 auto;
+	  left: 20.8%;
+	  top: 278px;
+	   z-index: 999;
+
+	    POSITION: ABSOLUTE;
+
+	}
+	.botao {
+	  position: relative;
+	  width: 52%;
+	  MARGIN: 0 AUTO;
+	  MARGIN-TOP: 15PX;
+	  z-index:999;
+	}
+	.botao img{
+		position: relative;
+		width: 100%;
+		z-index:999;
+		
+	}
+	.pointer {
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	  border: 35px solid;
+	  border-color: white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(89, 89, 89, 0);
+	  z-index: 999;
+	  margin-top: -4px;
+	  left: 46%;
+	}
+}
+
+@media screen and (min-width: 1600px){
+	.roulette {
+	  width: 99%;
+	  position: relative;
+	  border: 0px solid #000;
+	  margin: 0 AUTO;
+	  overflow-y: hidden;
+	  overflow-x: hidden;
+	}
+	.centro {
+	  border: 0px solid #000;
+	  width: 1600px;
+	  position: relative;
+	  height: auto;
+	  margin: 0 auto;
+	  overflow-y: hidden;
+	  overflow-x: hidden;
+	}
+	.botao {
+	  position: relative;
+	  width: 45%;
+	  MARGIN: 0 AUTO;
+	  MARGIN-TOP: 90PX;
+	}
+	.fundointerna {
+	  width: 70%;
+	  border: 0px solid;
+	  margin: 0 auto;
+	  left: 28%;
+	  top: 565px;
+	  z-index: 999;
+   POSITION: ABSOLUTE;
+
+	}
+	.pointer {
+	  position: absolute;
+	  width: 0;
+	  height: 0;
+	  border: 90px solid;
+	  border-color: white rgba(255, 255, 255, 0) rgba(255, 255, 255, 0) rgba(89, 89, 89, 0);
+	  z-index: 999;
+	  margin-top: -4px;
+	  left: 44.69%;
+	}
+}
+
+@media screen and (width: 720px){
+	.centro {
+	  border: 0px solid #000;
+	  width: 720px;
+	  position: relative;
+	  height: auto;
+	  margin: 0 auto;
+	  overflow-y: hidden;
+	  overflow-x: hidden;
+	}
+	.fundointerna {
+  width: 70%;
+  border: 0px solid;
+  margin: 0 auto;
+  left: 18.8%;
+  top: 252px;
+  z-index: 999;
+  POSITION: ABSOLUTE;
+}
+.botao {
+  
+  position: relative;
+  width: 55%;
+  MARGIN: 0 AUTO;
+  MARGIN-TOP: 30PX;
+
+}
+}
