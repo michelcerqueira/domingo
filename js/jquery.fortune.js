@@ -22,10 +22,10 @@ $.fn.extend({
 		var deferred = $.Deferred();
 	 
 	  var ar = [55,80,90,280,320];
-
+		
 	  position =   ar[Math.floor(Math.random() * ar.length)];
 	  
-	  
+	
 	   if(x == 3){		  
 		var position = 150;
 			
@@ -37,11 +37,17 @@ $.fn.extend({
 	  if(x == 13){		  
 		var position = 150;
 			
+	  }if(x == 16){
+		  
+		 var position = 0; 
 	  }
-	  if(x == 19){		  
+	  if(x == 20){		  
 		var position = 150;
 		//
 			
+	  }if(x == 23){
+		  var position = 120;
+		  
 	  }
 	  if(x == 27){
 		  var position = 240;
@@ -68,21 +74,27 @@ $.fn.extend({
 		  
 	  }
 	  if(x == 51){
+		   var position = 10;
+		  
+		  
+	  }if(x == 55){
 		   var position = 220;
 		  
-		  
 	  }
-	   if(x == 57){		  
+	   if(x == 58){		  
 		var position = 150;
 			
 	  }
 	   if(x == 60){		  
-			 var position = 220;
+			 var position = 230;
 		  
 	  }
 	   if(x == 66){
-		   	var position = 240;
+		   	var position = 150;
 			
+		  
+	  }if(x == 71){
+		  	var position = 135;
 		  
 	  }
 	   if(x == 72){
@@ -104,16 +116,19 @@ $.fn.extend({
 			
 	  }
 	   if(x == 91){
-		   var position = 120;
+		   var position = 15;
 			
 		  
+	  }if(x == 94){
+		  var position = 150;
+		  
 	  }
-	  if(x == 96){
+	  if(x == 97){
 		   	var position = 220;
 			
 		  
 	  }if(x == 100){
-		   	var position = 150;
+		   	var position = 0;
 			x = 0;
 			//
 		  
